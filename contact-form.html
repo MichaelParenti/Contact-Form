@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            background: url('https://cdn.wallpapersafari.com/34/88/yTgRnO.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+        }
+        #container{
+            background: rgba(85, 215, 255, 0.3);
+            backdrop-filter: blur(5px);
+            box-shadow: 0 0 0 10px rgba(85, 215, 255, 0.5);
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            color: darkblue;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 450px;
+            height: 500px;
+        }
+        input{
+            outline: none;
+            border: none;
+            border-bottom: solid 1px darkblue;
+            background-color:transparent;
+            color: darkblue;
+        }
+        input[type="submit"]{
+            outline: none;
+            border: solid 1px darkblue;
+            background-color:darkblue;
+            color:white;
+            opacity: 0.8;
+            padding: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+        <div id="container">
+            <h1>Contact Form</h1>
+            <input type="text" id="fname" placeholder="First Name...">
+            <input type="text" id="lname" placeholder="Last Name...">
+            <input type="text" id="email" placeholder="Email...">
+            <input type="text" id="phone" placeholder="Phone...">
+            <input type="submit">
+        </div>
+</body>
+</html>
